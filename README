@@ -1,0 +1,18 @@
+# python-snappy-cli
+
+Modified CLI wrapper for !(https://github.com/andrix/python-snappy)[andrix/python-snappy]
+
+## Installation
+
+```
+pip install git+https://github.com/keboola/python-snappy-cli.git
+
+```
+
+## Usage
+
+```
+python -m snappy_cli -d archive.snappy unarchivedfile
+python -m snappy_cli -d unarchivedfile archive.snappy
+
+```
